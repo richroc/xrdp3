@@ -16,14 +16,14 @@ xdotool
 ```
 sudo apt-get install xdotool
 wget http://old-releases.ubuntu.com/ubuntu/pool/universe/x/xwatchwin/xwatchwin_1.1.1-2_amd64.deb && sudo dpkg -i xwatchwin_1.1.1-2_amd64.deb && sudo apt-get install -f
-git clone git@github.com:sensepost/xrdp.git && cd xrdp
+git clone https://github.com/richroc/xrdp3.git && cd xrdp3
 ```
 
 ## Usage:
 ```
-python xrdp.py <IP>:<DP>
-python xrdp.py 10.2.10.190:0
-python xrdp.py 10.2.10.190:0 --no-disp
+python3 xrdp3.py <IP>:<DP>
+python3 xrdp3.py 10.2.10.190:0
+python3 xrdp3.py 10.2.10.190:0 --no-disp
 ```
 
 ## Functionality:
@@ -43,5 +43,5 @@ R-Shell		= type ip:port + press button to automatically open terminal and run re
 
 ## Authors:
 Darryn@SensePost.com
-
 Thomas@SensePost.com
+##Updated for Gtk3 and Python3 by Taffy
